@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 // app constants
-#define NUM_THREADS 4
+#define NUM_THREADS 2
 #define N 200000000LL / NUM_THREADS // fast
 //#define N 10000000000LL / NUM_THREADS // produces nicely detailed image
 #define NX 4000 // image width (pixels)
