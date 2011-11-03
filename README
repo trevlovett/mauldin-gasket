@@ -1,0 +1,21 @@
+mauldin.c
+---------
+Author: Trevor Lovett (trevlovett@gmail.com)
+
+Optimized multithreaded renderer of the Mauldin Gasket (http://paulbourke.net/fractals/mauldin/).  Written in C, with reliance on pthreads.
+
+Compiling
+---------
+gcc -lm -pthread -O3 mauldin.c -o mauldin
+
+Parameters
+----------
+NUM_THREADS should be adjusted to the # of cores on your system (default = 2)
+larger values of N will produce more detailed image
+NX is image width
+NY is image height
+
+Output
+------
+Produces a 16-bit PPM grayscale image file, output.ppm
+
